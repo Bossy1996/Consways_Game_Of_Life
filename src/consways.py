@@ -38,7 +38,7 @@ while True: # Main program loop
 
             #Count numebr of living neighbors
             numNeighbors = 0
-            if currentCells[leftCoord][aboveCoord] = '#':
+            if currentCells[leftCoord][aboveCoord] == '#':
                 numNeighbors += 1 # Top-Left neighbor is alive.
             if currentCells[x][aboveCoord] == '#':
                 numNeighbors += 1 #Top neighbor is alive.
